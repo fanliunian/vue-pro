@@ -1,0 +1,26 @@
+.el-table tr th, .el-table tr td {
+  color: #333333;
+  font-size: 13px;
+  padding: 0; }
+  .el-table tr th div.cell, .el-table tr td div.cell {
+    white-space: nowrap;
+    height: 40px;
+    line-height: 40px; }
+.el-table tr th {
+  font-weight: bold;
+  background: #F3F4F8; }
+.el-table tr:last-child td, .el-table tr:last-child th {
+  border-bottom: none; }
+
+.el-scrollbar__change {
+  overflow-x: hidden; }
+
+.el-scrollbar__thumb {
+  background-color: rgba(144, 147, 153, 0.8); }
+
+.el-input__inner {
+  line-height: 34px;
+  height: 34px; }
+
+.el-input__icon {
+  line-height: 34px; }
