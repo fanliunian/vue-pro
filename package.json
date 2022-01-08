@@ -1,11 +1,10 @@
 {
-  "name": "vue-pro",
-  "version": "4.4.0",
-  "description": "vue demo",
-  "author": "pan",
+  "name": "vuefrontframe",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build:prod": "vue-cli-service build"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "0.18.1",
