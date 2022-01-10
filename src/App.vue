@@ -1,13 +1,11 @@
 <template>
-   <div class="warp">
-      <router-view />
-   </div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'App'
+}
 </script>
-
-<style>
-@import "./assets/css/common/animate.min.css";
-</style>
