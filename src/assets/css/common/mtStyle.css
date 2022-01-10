@@ -1,0 +1,327 @@
+@charset "UTF-8";
+.meetingBlock {
+  height: 100%;
+  overflow: hidden;
+  /* form 表单样式 */
+  /* button css */ }
+  .meetingBlock .container {
+    width: 100%;
+    height: 100%; }
+  .meetingBlock .handle-btn {
+    width: 17px;
+    height: 18px;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    background: url("../../../assets//images/meeting/handle_icon.png") 0 0 no-repeat;
+    background-size: 100% 100%; }
+  .meetingBlock .form-search {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box; }
+  .meetingBlock .form-main {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .meetingBlock .form-main h4.title {
+      height: 30px;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 15px;
+      line-height: 30px;
+      font-size: 16px;
+      color: #212844;
+      font-weight: bold; }
+  .meetingBlock .el-form {
+    width: 100%;
+    display: flex; }
+    .meetingBlock .el-form .el-form-item {
+      margin: 0 15px 0 0; }
+      .meetingBlock .el-form .el-form-item .el-input {
+        width: auto; }
+      .meetingBlock .el-form .el-form-item label {
+        font-size: 14px;
+        color: #333333; }
+      .meetingBlock .el-form .el-form-item button.btn-inline {
+        margin: 0 10px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 2px;
+        background: #3fa1ff;
+        color: #fff; }
+    .meetingBlock .el-form .form-btn {
+      flex: 1;
+      text-align: right; }
+      .meetingBlock .el-form .form-btn button {
+        margin-left: 10px;
+        width: 80px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        outline: none; }
+  .meetingBlock .btn {
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    outline: none; }
+    .meetingBlock .btn.btn-blue {
+      background: #3fa1ff;
+      color: #fff; }
+    .meetingBlock .btn.btn-reset {
+      background: #e5edff;
+      color: #4B7ED6; }
+
+/* 会议首页 */
+#meetingHome .meetList {
+  display: flex;
+  display: -webkit-flex;
+  /* Safari */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 16px 0 16px 0; }
+  #meetingHome .meetList li {
+    width: 19%;
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 1%;
+    box-sizing: border-box; }
+    #meetingHome .meetList li p,
+    #meetingHome .meetList li span {
+      width: 100%;
+      color: #666666;
+      font-size: 14px;
+      line-height: 10px;
+      text-align: right; }
+    #meetingHome .meetList li span {
+      width: 100%;
+      line-height: 30px;
+      display: inline-block;
+      font-size: 23px;
+      color: #333333; }
+      #meetingHome .meetList li span img {
+        width: 36px;
+        height: 36px;
+        float: left;
+        position: relative;
+        top: -5px;
+        left: 5px; }
+#meetingHome .items-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  #meetingHome .items-row .item {
+    width: 49.5%;
+    height: 323px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 16px;
+    box-sizing: border-box; }
+    #meetingHome .items-row .item h4 {
+      height: 58px;
+      line-height: 58px;
+      font-size: 16px;
+      color: #212844;
+      margin: 0;
+      padding-left: 25px;
+      box-sizing: border-box;
+      position: relative; }
+      #meetingHome .items-row .item h4 img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        border-radius: 5px;
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        transform: translate(0%, -50%); }
+    #meetingHome .items-row .item.item-all {
+      width: 100%; }
+
+/* 登录页 */
+.loginPage {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../images/login/bg.jpg") 0 0 no-repeat;
+  background-size: cover; }
+  .loginPage .loginContainer {
+    width: 1090px;
+    height: 439px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .loginPage .loginContainer .left_item {
+      width: 610px;
+      height: 440px;
+      background: rgba(0, 0, 0, 0.3);
+      position: relative;
+      text-align: center;
+      padding-top: 143px;
+      box-sizing: border-box; }
+      .loginPage .loginContainer .left_item h3 {
+        font-size: 36px;
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        margin: 0; }
+      .loginPage .loginContainer .left_item h4 {
+        font-size: 38px;
+        margin-top: 30px;
+        color: #ffffff; }
+      .loginPage .loginContainer .left_item p {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 46px;
+        left: 0;
+        right: 0; }
+    .loginPage .loginContainer .right_item {
+      width: 480px;
+      height: 440px;
+      padding: 30px 0 35px 0;
+      box-sizing: border-box;
+      background: rgba(255, 255, 255, 0.6);
+      position: relative;
+      display: flex;
+      justify-content: center; }
+      .loginPage .loginContainer .right_item .login_code {
+        padding-top: 70px;
+        box-sizing: border-box;
+        text-align: center; }
+        .loginPage .loginContainer .right_item .login_code p {
+          font-size: 16px;
+          color: #333333;
+          line-height: 50px; }
+      .loginPage .loginContainer .right_item .icon_btn {
+        width: 58px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer; }
+        .loginPage .loginContainer .right_item .icon_btn.icon_code {
+          height: 59px;
+          background: url("../../images/login/er.png") 0 0 no-repeat;
+          background-size: 100% 100%; }
+        .loginPage .loginContainer .right_item .icon_btn.icon_pc {
+          height: 57px;
+          background: url("../../images/login/pc.png") 0 0 no-repeat;
+          background-size: 100% 100%; }
+      .loginPage .loginContainer .right_item .title {
+        font-size: 24px;
+        color: #333333;
+        position: relative;
+        text-align: center; }
+        .loginPage .loginContainer .right_item .title:after {
+          content: '';
+          width: 16px;
+          height: 6px;
+          border-radius: 5px;
+          background: #2491fc;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -10px;
+          margin: 0 auto; }
+      .loginPage .loginContainer .right_item .login_from {
+        width: 355px;
+        margin-top: 40px; }
+        .loginPage .loginContainer .right_item .login_from .el-form-item__content {
+          line-height: inherit; }
+        .loginPage .loginContainer .right_item .login_from i {
+          position: absolute;
+          display: inline-block;
+          width: 12px;
+          left: 18px;
+          top: 50%;
+          z-index: 100; }
+          .loginPage .loginContainer .right_item .login_from i.t_icon {
+            height: 16px;
+            margin-top: -8px;
+            background: url("../../images/login/phone.png") 0 0 no-repeat;
+            background-size: 100% 100%; }
+          .loginPage .loginContainer .right_item .login_from i.p_icon {
+            height: 14px;
+            margin-top: -7px;
+            background: url("../../images/login/password.png") 0 0 no-repeat;
+            background-size: 100% 100%; }
+          .loginPage .loginContainer .right_item .login_from i.v_icon {
+            width: 14px;
+            height: 14px;
+            margin-top: -7px;
+            background: url("../../images/login/verification.png") 0 0 no-repeat;
+            background-size: 100% 100%; }
+          .loginPage .loginContainer .right_item .login_from i.n_icon {
+            width: 14px;
+            height: 13px;
+            margin-top: -6.5px;
+            background: url("../../images/login/note.png") 0 0 no-repeat;
+            background-size: 100% 100%; }
+          .loginPage .loginContainer .right_item .login_from i.el-input__icon {
+            width: initial;
+            left: initial;
+            top: initial;
+            font-size: 24px;
+            right: 8px; }
+        .loginPage .loginContainer .right_item .login_from .el-input input {
+          width: 100%;
+          height: 44px;
+          border: none;
+          padding-left: 40px;
+          box-sizing: border-box;
+          border-radius: 2px;
+          position: relative; }
+          .loginPage .loginContainer .right_item .login_from .el-input input::-webkit-input-placeholder {
+            /* WebKit, Blink, Edge */
+            color: #BEBEBE;
+            font-size: 14px; }
+          .loginPage .loginContainer .right_item .login_from .el-input input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #BEBEBE;
+            font-size: 14px; }
+          .loginPage .loginContainer .right_item .login_from .el-input input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #BEBEBE;
+            font-size: 14px; }
+          .loginPage .loginContainer .right_item .login_from .el-input input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #BEBEBE;
+            font-size: 14px; }
+        .loginPage .loginContainer .right_item .login_from .line_input {
+          width: 190px; }
+          .loginPage .loginContainer .right_item .login_from .line_input ~ img {
+            float: right; }
+        .loginPage .loginContainer .right_item .login_from .el-checkbox:last-child {
+          float: right; }
+        .loginPage .loginContainer .right_item .login_from .el-checkbox span {
+          font-size: 14px;
+          color: #333333; }
+        .loginPage .loginContainer .right_item .login_from .submit {
+          width: 100%;
+          height: 44px;
+          font-size: 18px;
+          color: #fff;
+          margin-top: 20px;
+          font-weight: inherit; }
+      .loginPage .loginContainer .right_item .handle_line {
+        width: 100%;
+        margin-top: 20px; }
+        .loginPage .loginContainer .right_item .handle_line span {
+          font-size: 14px;
+          cursor: pointer;
+          color: #333333;
+          margin-right: 25px; }
+
+/*# sourceMappingURL=mtStyle.css.map */
